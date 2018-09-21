@@ -9,6 +9,7 @@ let Mahmoud =
   ageAgraid = 29
   hair = null
   male = true
+  female = false
 }
 
 let haircolour = "My haircolour is Dirty Blonde";
