@@ -11,8 +11,5 @@ console.log(MahmoudSaleh);
 console.log(MeganSpence);
 
 // Print variables to console
-console.log("Last Name is: " + MahmoudSaleh[1]);
-console.log("Last Name is: " + MeganSpence[1]);
-
-MahmoudSaleh [1] = "Is Awesome"
-console.log(MahmoudSaleh);
+console.log("Last Name of MahmoudSaleh is: " + MahmoudSaleh[1]);
+console.log("Last Name MeganSpence is: " + MeganSpence[1]);
