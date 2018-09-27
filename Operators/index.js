@@ -1,24 +1,22 @@
-function simpleOperators (numberA, numberB)
-{
+function simpleOperators (numberA, numberB){
   let adding = numberA + numberB;
-  let substract = numberA - numberB;
-  let multiply = numberA * numberB;
-  let devide = numberA / numberB;
+  let subtract = numberA - numberB;
+  let mutliply = numberA * numberB;
+  let divide = numberA / numberB;
   console.log(adding);
-  console.log(substract);
-  console.log(multiply);
-  console.log(devide);
+  console.log(subtract);
+  console.log(mutliply);
+  console.log(divide);
 }
-
+//Skipcount by ___ for ___ times starting at ___
+function skipCounting (skipCount, times, startingNumber){
+  let number = startingNumber - skipCount;
+  for (let i=1; i<=times; i++){
+    number += skipCount;
+    console.log(number);
+  }
+}
 let number = [4, 7, 13, 99];
 simpleOperators (number[0], number[1]);
 simpleOperators (number[2], number[3]);
-
-
-let skipCount = 0; // skip count by 2's to 10
-
-for (let i=15; i<=5; i--)
-{
-  skipCount += 2;
-  console.log(skipCount);
-}
+skipCounting (3, 6, 113);
