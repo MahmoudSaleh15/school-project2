@@ -1,4 +1,4 @@
-function isLa (width, height) {
+function isLa (width, height) { // the function
   if (width == height) return 'Square'; //must be first, return will not allow rest of code to run
   return (width > height) ? 'Landscape' : 'Portrait'; //ternary operator example
 }
